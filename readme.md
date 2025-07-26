@@ -1,6 +1,6 @@
-# MediCare HMS - Advanced Hospital Management System
+# Medixphere HMS - Advanced Hospital Management System
 
-**MediCare HMS** is a modern, full-stack Hospital Management System (HMS) built with the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to be a comprehensive, scalable, and user-friendly platform that digitizes and streamlines all aspects of hospital operations, from patient registration and electronic health records to billing, pharmacy, and advanced administrative controls.
+**Medixphere HMS** is a modern, full-stack Hospital Management System (HMS) built with the MERN stack (MongoDB, Express.js, React, Node.js). It is designed to be a comprehensive, scalable, and user-friendly platform that digitizes and streamlines all aspects of hospital operations, from patient registration and electronic health records to billing, pharmacy, and advanced administrative controls.
 
 The system features distinct, secure portals for Administrators, Doctors, and Patients, each tailored with role-specific functionalities to ensure a seamless and efficient healthcare delivery process.
 
@@ -20,7 +20,7 @@ The system features distinct, secure portals for Administrators, Doctors, and Pa
 
 ## Project Vision
 
-The goal of MediCare HMS is to create a single, unified digital ecosystem for healthcare facilities. By replacing fragmented, paper-based workflows with an intelligent, integrated system, we aim to:
+The goal of Medixphere HMS is to create a single, unified digital ecosystem for healthcare facilities. By replacing fragmented, paper-based workflows with an intelligent, integrated system, we aim to:
 *   **Enhance Patient Care:** Provide doctors with instant access to comprehensive patient data, enabling better and faster clinical decisions.
 *   **Improve Operational Efficiency:** Automate routine administrative and operational tasks, reducing manual effort and minimizing errors.
 *   **Empower Patients:** Give patients secure access to their own health records, appointments, and communication channels.
@@ -29,7 +29,7 @@ The goal of MediCare HMS is to create a single, unified digital ecosystem for he
 
 ## Core Features
 
-The development of MediCare HMS is planned in three major phases, progressively building out the system's capabilities.
+The development of Medixphere HMS is planned in three major phases, progressively building out the system's capabilities.
 
 ### Phase 1: Foundation & Clinical Core (In Progress / Partially Complete)
 
