@@ -80,17 +80,17 @@ export const apiService = {
   updateNotice: (id, data) => api.put(`/notice/updateNotice/${id}`, data).then(handleResponse).catch(handleError),
   deleteNotice: (id) => api.delete(`/notice/deleteNotice/${id}`).then(handleResponse).catch(handleError),
 
-  // --- Critical Care (ICU Flow Chart) ---
   getCriticalCareChart: (patientId) => api.get(`/flow-chart/get/${patientId}`).then(handleResponse).catch(handleError),
   
-  // NEW: Specific function for adding a new time slot record
-  addCriticalCareTimeSlot: (patientId, data) => api.post(`/flow-chart/add/${patientId}`, data).then(handleResponse).catch(handleError),
+  updateCriticalCareHeader: (patientId, data) => api.put(`/flow-chart/header/${patientId}`, data).then(handleResponse).catch(handleError),
 
-  // NEW: Specific function for updating an existing time slot record
-  updateCriticalCareTimeSlot: (patientId, dayId, slotId, data) => api.put(`/flow-chart/update/${patientId}/${dayId}/${slotId}`, data).then(handleResponse).catch(handleError),
+  upsertCriticalCareTimeSlot: (patientId, data) => api.post(`/flow-chart/slot/${patientId}`, data).then(handleResponse).catch(handleError),
+
+  updateCriticalCareDayData: (patientId, data) => api.put(`/flow-chart/day/${patientId}`, data).then(handleResponse).catch(handleError),
+
+  deleteCriticalCareTimeSlot: (patientId, dayId, slotId) => api.delete(`/flow-chart/slot/${patientId}/${dayId}/${slotId}`).then(handleResponse).catch(handleError),
   
-  // NEW: Specific function for updating header fields
-  updateCriticalCareHeader: (patientId, data) => api.put(`/flow-chart/update-header/${patientId}`, data).then(handleResponse).catch(handleError),
+  getCriticalCareAnalytics: (patientId) => api.get(`/flow-chart/analytics/${patientId}`).then(handleResponse).catch(handleError),
 
   // --- Appointments ---
   getAppointments: (params = {}) => api.get('/appointment/getAll', { params }).then(handleResponse).catch(handleError),
